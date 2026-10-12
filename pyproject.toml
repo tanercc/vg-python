@@ -1,0 +1,19 @@
+[project]
+name = "vg-python"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "alembic>=1.20.0",
+    "email-validator>=2.3.0",
+    "fastapi[standard]>=0.143.0",
+    "pwdlib[argon2]>=0.3.1",
+    "pydantic-settings>=2.15.0",
+    "pyjwt>=2.15.1",
+    "pymysql>=1.2.3",
+    "sqlalchemy>=2.1.4",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
